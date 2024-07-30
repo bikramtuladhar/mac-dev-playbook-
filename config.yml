@@ -26,7 +26,6 @@ dotfiles_repo: git@github.com:bikramtuladhar/dotfiles-.git
 dotfiles_repo_accept_hostkey: true
 dotfiles_repo_local_destination: ~/Projects/GitHub/dotfiles-
 dotfiles_files:
-  - .zshrc
   - .gitignore
   - .inputrc
   - .osx
@@ -50,7 +49,7 @@ homebrew_cask_apps:
   - orbstack
   - google-chrome
   - slack
-  - logitech-options
+  - logi-options-plus
   - jetbrains-toolbox
   - angry-ip-scanner
   - flycut
@@ -60,7 +59,6 @@ homebrew_cask_apps:
   - skype
   - vlc
   - zerotier-one
-  - zoomus
   - android-file-transfer
   - sublime-text
   - balenaetcher
