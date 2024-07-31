@@ -41,6 +41,7 @@ homebrew_installed_packages:
   - pyenv
   - libpq
   - mysql-client
+  - teleport
 
 homebrew_taps: []
 
