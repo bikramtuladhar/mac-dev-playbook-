@@ -41,7 +41,7 @@ homebrew_installed_packages:
   - pyenv
   - libpq
   - mysql-client
-  - teleport
+  - kubectl
 
 homebrew_taps: []
 
@@ -64,7 +64,11 @@ homebrew_cask_apps:
   - sublime-text
   - balenaetcher
   - cloudflare-warp
-
+  - teleport-connect
+  - devpod
+  - lens
+  - herd
+  - amazon-q
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: 
   - { id: 497799835, name: "Xcode (15.4)" }
