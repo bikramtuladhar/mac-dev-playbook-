@@ -32,73 +32,48 @@ dotfiles_files:
   - .gitconfig
 
 homebrew_installed_packages:
-  - autoconf
-  - brotli
-  - ca-certificates
   - curl
   - dockutil
-  - gettext
   - gh
   - git
   - helm
-  - icu4c
-  - krb5
   - kubernetes-cli
-  - libcbor
-  - libevent
-  - libfido2
-  - libidn2
-  - libnghttp2
   - libpq
-  - libssh2
-  - libunistring
-  - lz4
-  - m4
   - mas
-  - miniupnpc
   - mysql-client
   - nvm
-  - openssl@3
   - packer
-  - pcre2
-  - pkg-config
   - pyenv
-  - readline
-  - rtmpdump
   - talosctl
   - terraform
   - transmission-cli
   - wget
-  - xz
-  - zlib
-  - zstd
 
 homebrew_taps: []
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - amazon-q
-  - android-file-transfer 
-  - angry-ip-scanner  
+  - android-file-transfer
+  - angry-ip-scanner
   - balenaetcher
-  - cloudflare-warp   
+  - cloudflare-warp
   - devpod
   - flycut
-  - google-chrome   
+  - google-chrome
   - herd
-  - jetbrains-toolbox 
+  - jetbrains-toolbox
   - keka
   - lens
-  - logi-options-plus 
-  - logitech-options  
-  - orbstack    
+  - logi-options-plus
+  - orbstack
   - postman
-  - raspberry-pi-imager 
+  - raspberry-pi-imager
   - skype
   - slack
-  - sublime-text    
-  - teleport-connect  
-  - transmission    
+  - sublime-text
+  - teleport-connect
+  - transmission-cli
   - vlc
   - zap
   - zerotier-one
