@@ -32,43 +32,77 @@ dotfiles_files:
   - .gitconfig
 
 homebrew_installed_packages:
-  - git
-  - gh
-  - nvm
-  - mas
-  - wget
+  - autoconf
+  - brotli
+  - ca-certificates
   - curl
-  - pyenv
+  - dockutil
+  - gettext
+  - gh
+  - git
+  - helm
+  - icu4c
+  - krb5
+  - kubernetes-cli
+  - libcbor
+  - libevent
+  - libfido2
+  - libidn2
+  - libnghttp2
   - libpq
+  - libssh2
+  - libunistring
+  - lz4
+  - m4
+  - mas
+  - miniupnpc
   - mysql-client
-  - kubectl
+  - nvm
+  - openssl@3
+  - packer
+  - pcre2
+  - pkg-config
+  - pyenv
+  - readline
+  - rtmpdump
+  - talosctl
+  - terraform
+  - transmission-cli
+  - wget
+  - xz
+  - zlib
+  - zstd
 
 homebrew_taps: []
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - orbstack
-  - google-chrome
-  - slack
-  - logi-options-plus
-  - jetbrains-toolbox
-  - angry-ip-scanner
-  - flycut
-  - keka
-  - owasp-zap
-  - postman
-  - skype
-  - vlc
-  - zerotier-one
-  - android-file-transfer
-  - sublime-text
-  - balenaetcher
-  - cloudflare-warp
-  - teleport-connect
-  - devpod
-  - lens
-  - herd
   - amazon-q
+  - android-file-transfer 
+  - angry-ip-scanner  
+  - balenaetcher
+  - cloudflare-warp   
+  - devpod
+  - flycut
+  - google-chrome   
+  - herd
+  - jetbrains-toolbox 
+  - keka
+  - lens
+  - logi-options-plus 
+  - logitech-options  
+  - orbstack    
+  - postman
+  - raspberry-pi-imager 
+  - skype
+  - slack
+  - sublime-text    
+  - teleport-connect  
+  - transmission    
+  - vlc
+  - zap
+  - zerotier-one
+
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: 
   - { id: 497799835, name: "Xcode (15.4)" }
