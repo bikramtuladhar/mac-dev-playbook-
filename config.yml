@@ -48,6 +48,10 @@ homebrew_installed_packages:
   - terraform
   - transmission-cli
   - wget
+  - microsoft-office
+  - juju
+  - jq
+  - watch
 
 homebrew_taps: []
 
@@ -77,6 +81,8 @@ homebrew_cask_apps:
   - vlc
   - zap
   - zerotier-one
+  - zoom
+  - wireshark
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: 
